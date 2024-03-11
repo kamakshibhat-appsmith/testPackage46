@@ -35,7 +35,9 @@
               "clientSideExecution": true,
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "function () {\n  return _$JSModule1_1$_Query1.run();\n}"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
